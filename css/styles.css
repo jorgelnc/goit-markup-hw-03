@@ -1,0 +1,161 @@
+:root {
+    --color-main: #2196F3;
+    --color-secondary: #757575;
+    --color-background-sections: #2F303A;
+    --color-text-main: #212121;
+    --color-text-light: #FFFFFF;
+    --color-secondary-back: #F5F4FA;
+    --color-active: #0000ff;
+}
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: var(--color-text-main);
+    text-decoration: none;
+}
+.logo-principal {
+    color: var(--color-main);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;  
+}
+.principal-options {
+    color: var(--color-text-main);
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+.link {
+    text-decoration: none;
+    color: var(--color-text-main);
+}
+.link:hover, .link:focus {
+color: var(--color-main);
+text-decoration: none;
+}
+
+.link-contacts {
+    color: var(--color-secondary);
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+.link-contacts:hover, .link-contacts:focus {
+    color: var(--color-main);
+}
+.main-section {
+    background-color: var(--color-background-sections);
+}
+.principal-title {
+    color: white;
+    font-size: 44px;
+    line-height: 1.4;
+}
+
+/* Boton de servicio principal */
+
+.service-button {
+    background-color: var(--color-main);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.service-button[value="Solicitar un Servicio"]:hover, .service-button[value="Solicitar un Servicio"]:focus {
+    background-color: var(--color-active);
+}
+
+.button {
+    cursor: pointer;
+    font-family: inherit;
+    border-style: none;
+}
+.button:hover, .button:focus {
+    background-color: var(--color-main);
+    color: var(--color-text-light);
+    font-family: inherit;
+
+}
+
+/* Seccion principal */
+
+.advantages-list-main > li > p {
+    color: var(--color-secondary);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.design-doit > h2 {
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.professionals-team > h2 {
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+.professionals-team {
+    background-color: var(--color-secondary-back);
+}
+
+.professionals-list > li > p {
+    color: var(--color-secondary);
+    font-size: 16px;
+    line-height: 1.1;
+
+}
+.professionals-list > h3 {
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.professionals-list > li {
+    background-color: var(--color-text-light);
+}
+
+/*Seccion del Footers*/
+
+.address-area {
+    text-decoration: none;
+    font-style: normal;
+}
+.link-address {
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-text-light);
+    text-decoration: none;
+}
+.link-address:hover, .link-address:focus {
+    color: var(--color-main);
+    text-decoration: none;
+}
+.address-area > li:hover {
+color: var(--color-main);
+text-decoration: none;
+}
+.address-section {
+    background-color: var(--color-background-sections);
+}
+
+/*Seccion principal Portfolio */
+
+.plataforms-descriptions >li > p {
+color: var(--color-secondary);
+line-height: 1.8;
+}
+.plataforms-descriptions >li >h3 {
+    font-family: inherit;
+    font-size: 18px;
+}
+.current {
+    color: var(--color-main);
+}
+.current-button {
+    background-color: var(--color-main);
+    color: var(--color-text-light);
+}
