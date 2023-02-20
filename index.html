@@ -4,25 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="container-head container">
       <a href="./index.html" class="logo-principal"><h2>WebStudio</h2></a>
       <nav>
-        <ul class="principal-options">
+        <ul class="principal-options list">
           <li><a href="./index.html" class="link current">Estudio</a></li>
           <li><a href="portfolio.html" class="link">Portafolio</a></li>
           <li><a href="#" class="link">Contactos</a></li>
         </ul>
       </nav>
-      <ul class="informative-data">
+      <ul class="informative-data list">
         <li>
           <a href="mailto:info@devstudio.com" class="link-contacts"
             >info@devstudio.com</a
@@ -33,17 +37,19 @@
         </li>
       </ul>
     </header>
-    <main>
-      <section class="main-section">
+    <main class="container">
+      <section class="main-section container section">
         <h1 class="principal-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <input
-          type="button"
-          class="service-button"
-          value="Solicitar un Servicio"
-        />
+        <p>
+          <input
+            type="button"
+            class="service-button"
+            value="Solicitar un Servicio"
+          />
+        </p>
       </section>
-      <section class="advantages-section">
-        <ul class="advantages-list-main">
+      <section class="advantages-section container section">
+        <ul class="advantages-list-main list">
           <li>
             <h3>ATENCION A LOS DETALLES</h3>
             <p>
@@ -75,9 +81,9 @@
           </li>
         </ul>
       </section>
-      <section class="design-doit">
+      <section class="design-doit container section">
         <h2>A qué nos dedicamos</h2>
-        <ul class="img-list">
+        <ul class="img-list list">
           <li>
             <img
               src="./images/Diagrama.jpg"
@@ -101,9 +107,9 @@
           </li>
         </ul>
       </section>
-      <section class="professionals-team">
+      <section class="professionals-team container section">
         <h2>Nuestro Equipo</h2>
-        <ul class="professionals-list">
+        <ul class="professionals-list list">
           <li>
             <img
               src="./images/AndresCubo.jpg"
@@ -143,16 +149,18 @@
         </ul>
       </section>
     </main>
-    <footer class="address-section">
-      <a href="./index.html" class="logo-principal"><h2>WebStudio</h2></a>
+    <footer class="address-section container section">
       <address class="address-area">
-        <ul>
+        <ul class="list">
+          <li>
+            <a href="./index.html" class="logo-principal"><h2>WebStudio</h2></a>
+          </li>
           <li>
             <a
               href="https://goo.gl/maps/ckuexV7HdSYDYAxT6"
               target="_blank"
               class="link-address"
-              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+              >Calz. Ticomán 500, Ciudad de México, CDMX, México.</a
             >
           </li>
           <li>
